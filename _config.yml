@@ -24,11 +24,11 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : # "Your Sidebar Name"
-  # pronouns         : # example: "she/her"  
-  # bio              : "Short biography for the left-hand sidebar"
+  pronouns         : # example: "she/her"  
+  bio              : # "Short biography for the left-hand sidebar"
    location         : #  "Earth"
    employer         : "LSE"
-  # uri              : # URL
+  uri              : # URL
   email            : "H.Zhang93@lse.ac.uk" 
 
   # Academic websites
