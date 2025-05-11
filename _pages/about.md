@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello there! I am a PhD candidate in Financial Mathematics at the Department of Mathematics, London School of Economics and Political Science, advised by Professor [Mihail Zervos](https://www.lse.ac.uk/Mathematics/people/Mihail-Zervos))
+Hello there! I am a PhD candidate in Financial Mathematics at the Department of Mathematics, London School of Economics and Political Science, advised by Professor [Mihail Zervos](https://www.lse.ac.uk/Mathematics/people/Mihail-Zervos)
 
 A data-driven personal website
 ======
