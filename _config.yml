@@ -26,8 +26,8 @@ author:
   name             : # "Your Sidebar Name"
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
-   location         : #  "Earth"
-   employer         : "LSE"
+  location         : #  "Earth"
+  employer         : "LSE"
   uri              : # URL
   email            : "H.Zhang93@lse.ac.uk" 
 
