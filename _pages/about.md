@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello there! I am a PhD candidate in Financial Mathematics at the Department of Mathematics, London School of Economics and Political Science, advised by Professor [Mihail Zervos](https://www.lse.ac.uk/Mathematics/people/Mihail-Zervos).
+Hello there! I am a PhD candidate in Financial Mathematics at the Department of Mathematics, [London School of Economics and Political Science](https://www.lse.ac.uk/mathematics), advised by Professor [Mihail Zervos](https://www.lse.ac.uk/Mathematics/people/Mihail-Zervos).
 
 My research interests lie at stochastic control, reinforcement learning and mathematical finance. 
 So far, I have worked on singular stochastic control problems in which the parameters of SDE are known. 
