@@ -12,4 +12,5 @@ Hello there! I am a PhD candidate in Financial Mathematics at the Department of 
 My research interests lie at stochastic control, reinforcement learning and mathematical finance. 
 So far, I have worked on singular stochastic control problems in which the parameters of SDE are known. 
 I am now especially interested in using reinforcement learning methods to solve singular stochastic control problems with unknown parameters.
+
 If you are also interested in reinforcement learning and stochastic control, I'm very happy to discuss and collaborate, please do not hesitate to reach out.
