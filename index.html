@@ -8,19 +8,16 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
   <style>
-    /* 保持原有的基本样式 */
     body {
       font-family: "Palatino Linotype", Palatino, serif;
       font-size: 16px;
       line-height: 1.5;
     }
 
-    /* 恢复所有 h1–h6 的粗体 */
     h1, h2, h3, h4, h5, h6 {
       font-weight: bold !important;
     }
 
-    /* 保持原有的桌面端表格样式 */
     table {
       padding-left: 10%;
       padding-right: 10%;
@@ -31,18 +28,15 @@
       padding: 70px;
     }
 
-    /* 移动端优化 - 只在小屏幕上生效 */
     @media (max-width: 768px) {
       body {
         font-size: 15px;
       }
 
-      /* 在移动端隐藏表格，使用新布局 */
       table {
         display: none;
       }
 
-      /* 移动端专用容器 */
       .mobile-layout {
         display: block;
         padding: 20px;
@@ -93,14 +87,12 @@
       }
     }
 
-    /* 桌面端隐藏移动端布局 */
     @media (min-width: 769px) {
       .mobile-layout {
         display: none;
       }
     }
 
-    /* 超小屏幕进一步优化 */
     @media (max-width: 480px) {
       .mobile-layout {
         padding: 15px;
@@ -131,14 +123,13 @@
 
 <body>
 
-<!-- 原有的桌面端表格布局 -->
 <div>
   <table>
     <tr>
     <td>
     <div align="center">
       <img src="img/avatar.jpg" height="240" class="rounded-corners">
-      <h2>Hengjian Zhang</h2><br> 
+      <h2>Hengjian Zhang</h2>
       <h4>PhD Candidate</h4>
       <h4>Mathematics, LSE</h4>
       <h4>H.Zhang93@lse.ac.uk</h4><br>
@@ -186,7 +177,6 @@
   </table>
 </div>
 
-<!-- 移动端专用布局 -->
 <div class="mobile-layout">
   <div class="mobile-profile">
     <img src="img/avatar.jpg" alt="Hengjian Zhang">
