@@ -4,9 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Hengjian Zhang</title>
-  <link rel="icon" type="image/png" href="img/icon.jpg">
-  <meta name="Author" content="Hengjian Zhang">
+
+  <link rel="icon" type="image/png" href="img/favicon.png?v=2">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png?v=2">
+
+  <meta name="author" content="Hengjian Zhang">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
   <style>
@@ -24,6 +28,14 @@
       white-space: nowrap;
     }
 
+    /* Restore the original introduction font size */
+    .intro-text {
+      font-family: "Palatino Linotype", Palatino, serif;
+      font-size: 16px !important;
+      font-weight: bold !important;
+      line-height: 1.5;
+    }
+
     table {
       padding-left: 10%;
       padding-right: 10%;
@@ -34,6 +46,7 @@
       padding: 70px;
     }
 
+    /* Tablet and mobile layout */
     @media (max-width: 768px) {
       body {
         font-size: 15px;
@@ -63,8 +76,9 @@
         text-align: left;
       }
 
-      .mobile-content h4 {
+      .mobile-content .intro-text {
         text-align: justify;
+        font-size: 15px !important;
       }
 
       h2 {
@@ -99,6 +113,7 @@
       }
     }
 
+    /* Small mobile screens */
     @media (max-width: 480px) {
       .mobile-layout {
         padding: 15px;
@@ -110,6 +125,10 @@
 
       .mobile-profile img {
         height: 160px;
+      }
+
+      .mobile-content .intro-text {
+        font-size: 14px !important;
       }
 
       h2 {
@@ -135,17 +154,25 @@
     <tr>
       <td>
         <div align="center">
-          <img src="img/avatar.jpg.jpg" height="240" class="rounded-corners" alt="Hengjian Zhang">
-          <h2>Hengjian Zhang</h2><br>
+          <img src="img/avatar.jpg.jpg"
+               height="240"
+               class="rounded-corners"
+               alt="Hengjian Zhang">
+
+          <h2>Hengjian Zhang</h2>
+          <br>
+
           <h4>PhD Candidate</h4>
           <h4>Mathematics, LSE</h4>
-          <h4>H.Zhang93@lse.ac.uk</h4><br>
+          <h4>H.Zhang93@lse.ac.uk</h4>
+          <br>
         </div>
       </td>
 
       <td>
         <div align="justify">
-          <h4>
+
+          <h4 class="intro-text">
             Hello there! I am a PhD candidate in Financial Mathematics
             at the Department of Mathematics,
             <a href="https://www.lse.ac.uk/" target="_blank">
@@ -195,7 +222,8 @@
               <p>
                 Mihail Zervos, Hengjian Zhang,
                 <i>"Long-run portfolio optimisation in the presence of proportional transaction costs: equivalent risk-sensitive and robust formulations"</i>.
-                Planned for submission to <i>Finance and Stochastics</i> shortly.
+                Planned for submission to
+                <i>Finance and Stochastics</i> shortly.
               </p>
             </li>
 
@@ -203,7 +231,9 @@
               <p>
                 Mihail Zervos, Hengjian Zhang,
                 <i>"Tracking a Target Moving Randomly on a Line"</i>.
-                Planned for submission to <i>Applied Mathematics &amp; Optimization</i> in the near future.
+                Planned for submission to
+                <i>Applied Mathematics &amp; Optimization</i>
+                in the near future.
               </p>
             </li>
 
@@ -217,7 +247,8 @@
 
             <li>
               <p>
-                Philippe Bergault, Leandro Sánchez-Betancourt, Hengjian Zhang,
+                Philippe Bergault, Leandro Sánchez-Betancourt,
+                Hengjian Zhang,
                 <i>"Automated Market Maker Portfolio Management with External Hedging"</i>.
                 Ongoing.
               </p>
@@ -258,10 +289,13 @@
   </table>
 </div>
 
+
 <!-- Mobile Layout -->
 <div class="mobile-layout">
+
   <div class="mobile-profile">
     <img src="img/avatar.jpg.jpg" alt="Hengjian Zhang">
+
     <h2>Hengjian Zhang</h2>
     <h4>PhD Candidate</h4>
     <h4>Mathematics, LSE</h4>
@@ -269,7 +303,8 @@
   </div>
 
   <div class="mobile-content">
-    <h4>
+
+    <h4 class="intro-text">
       Hello there! I am a PhD candidate in Financial Mathematics
       at the Department of Mathematics,
       <a href="https://www.lse.ac.uk/" target="_blank">
@@ -315,7 +350,8 @@
         <p>
           Mihail Zervos, Hengjian Zhang,
           <i>"Long-run portfolio optimisation in the presence of proportional transaction costs: equivalent risk-sensitive and robust formulations"</i>.
-          Planned for submission to <i>Finance and Stochastics</i> shortly.
+          Planned for submission to
+          <i>Finance and Stochastics</i> shortly.
         </p>
       </li>
 
@@ -323,7 +359,9 @@
         <p>
           Mihail Zervos, Hengjian Zhang,
           <i>"Tracking a Target Moving Randomly on a Line"</i>.
-          Planned for submission to <i>Applied Mathematics &amp; Optimization</i> in the near future.
+          Planned for submission to
+          <i>Applied Mathematics &amp; Optimization</i>
+          in the near future.
         </p>
       </li>
 
@@ -337,7 +375,8 @@
 
       <li>
         <p>
-          Philippe Bergault, Leandro Sánchez-Betancourt, Hengjian Zhang,
+          Philippe Bergault, Leandro Sánchez-Betancourt,
+          Hengjian Zhang,
           <i>"Automated Market Maker Portfolio Management with External Hedging"</i>.
           Ongoing.
         </p>
@@ -369,6 +408,7 @@
         <p>Applied Mathematics Postgraduate Conference, United Kingdom, 2024</p>
       </li>
     </ul>
+
   </div>
 </div>
 
